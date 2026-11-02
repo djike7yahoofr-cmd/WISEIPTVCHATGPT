@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="48dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp" android:text="Paramètres"
+        android:textColor="@color/white" android:textSize="30sp" android:textStyle="bold" />
+    <Button android:id="@+id/btn_tv_settings_playlists"
+        android:layout_width="match_parent" android:layout_height="60dp"
+        android:text="Gérer les playlists" />
+    <Button android:id="@+id/btn_tv_settings_quality"
+        android:layout_width="match_parent" android:layout_height="60dp"
+        android:layout_marginTop="10dp" android:text="Qualité vidéo"
+        android:backgroundTint="@color/wise_surface" />
+    <Button android:id="@+id/btn_tv_settings_profile"
+        android:layout_width="match_parent" android:layout_height="60dp"
+        android:layout_marginTop="10dp" android:text="Mon compte"
+        android:backgroundTint="@color/wise_surface" />
+    <Button android:id="@+id/btn_tv_settings_about"
+        android:layout_width="match_parent" android:layout_height="60dp"
+        android:layout_marginTop="10dp" android:text="À propos"
+        android:backgroundTint="@color/wise_surface" />
+    <Button android:id="@+id/btn_tv_settings_site"
+        android:layout_width="match_parent" android:layout_height="60dp"
+        android:layout_marginTop="10dp" android:text="Site officiel WiseIPTV"
+        android:textColor="@color/wise_blue_light" android:backgroundTint="@color/wise_surface" />
+</LinearLayout>

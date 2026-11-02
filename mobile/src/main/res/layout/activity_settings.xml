@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/splash_background">
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_marginBottom="64dp" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Paramètres" android:textColor="@color/white"
+            android:textSize="24sp" android:textStyle="bold" android:layout_marginBottom="18dp"/>
+        <Button android:id="@+id/btn_grid_columns"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="Disposition de la grille" android:backgroundTint="@color/wise_surface"/>
+        <Button android:id="@+id/btn_playback_quality"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:layout_marginTop="8dp" android:text="Qualité vidéo"
+            android:backgroundTint="@color/wise_surface"/>
+        <Button android:id="@+id/btn_add_playlist"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:layout_marginTop="8dp" android:text="Ajouter une playlist"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="26dp" android:layout_marginBottom="8dp"
+            android:text="Assistance" android:textColor="@color/wise_blue_light"
+            android:textSize="14sp" android:textStyle="bold"/>
+        <Button android:id="@+id/btn_website"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="Site officiel WiseIPTV"
+            android:textColor="@color/wise_blue_light"
+            android:backgroundTint="@color/wise_surface"/>
+        <Button android:id="@+id/btn_settings_support"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:layout_marginTop="8dp" android:text="Support WhatsApp"
+            android:backgroundTint="@color/wise_blue"/>
+        <Button android:id="@+id/btn_about"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:layout_marginTop="8dp" android:text="À propos de WiseIPTV"
+            android:backgroundTint="@color/wise_surface"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:gravity="center"
+            android:text="W Design · Wise IPTV 2.0"
+            android:textColor="@color/text_secondary" android:textSize="12sp"/>
+    </LinearLayout>
+</ScrollView>
+<include layout="@layout/view_bottom_navigation" android:layout_gravity="bottom" />
+</FrameLayout>

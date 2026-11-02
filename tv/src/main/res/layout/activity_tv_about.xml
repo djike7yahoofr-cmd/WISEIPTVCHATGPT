@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="48dp">
+    <ImageView android:layout_width="128dp" android:layout_height="128dp"
+        android:src="@mipmap/ic_launcher" android:contentDescription="Wise IPTV" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:text="Wise IPTV"
+        android:textColor="@color/white" android:textSize="32sp" android:textStyle="bold" />
+    <TextView android:id="@+id/tv_tv_about_version"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="6dp" android:textColor="@color/text_secondary" android:textSize="16sp" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" android:text="La télévision du monde à portée de main"
+        android:textColor="@color/text_secondary" android:textSize="16sp" />
+    <Button android:id="@+id/btn_tv_about_site"
+        android:layout_width="380dp" android:layout_height="58dp"
+        android:layout_marginTop="26dp" android:text="Visiter le site officiel" />
+</LinearLayout>
